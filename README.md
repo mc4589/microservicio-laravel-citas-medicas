@@ -10,6 +10,10 @@
 
 ---
 
+## Descripción General
+Este microservicio forma parte del ecosistema del Sistema de Citas Médicas, encargado de gestionar los usuarios (pacientes, doctores y administradores) de forma centralizada. Su diseño se basa en principios RESTful, seguridad mediante tokens y compatibilidad con microservicios adicionales como gestión de citas, especialidades y notificaciones.
+
+---
 ### **1. Objetivos del Proyecto**  
 El desarrollo de este microservicio tuvo como propósito principal implementar una **API RESTful segura, escalable y profesional** para la gestión de usuarios en un sistema de citas médicas. Se logró la creación, autenticación, consulta, actualización y eliminación de usuarios con **validaciones exhaustivas**, **autenticación basada en tokens** y **arquitectura stateless** que permite múltiples instancias sin compartir estado local. El sistema cumple con estándares de seguridad (hash de contraseñas, tokens Bearer) y está completamente documentado en español para facilitar su integración y mantenimiento.
 
