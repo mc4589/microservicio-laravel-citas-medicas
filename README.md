@@ -19,6 +19,14 @@ El desarrollo de este microservicio tuvo como propósito principal implementar u
 
 ---
 
+## 1.1 Alcance del Microservicio
+- ✔️ Registro, autenticación y administración de usuarios.
+- ✔️ Validación de credenciales y generación de tokens personales.
+- ❌ No gestiona citas, médicos ni horarios.
+- ❌ No almacena historiales clínicos detallados (solo datos básicos).
+
+---
+
 ### **2. Tecnologías y Conceptos Clave**  
 - **Laravel 12**: Framework PHP que proporciona estructura MVC, migraciones, Eloquent ORM y herramientas de validación.  
 - **Laravel Sanctum**: Sistema de autenticación por **tokens personales** (Personal Access Tokens), ideal para APIs sin sesiones.  
