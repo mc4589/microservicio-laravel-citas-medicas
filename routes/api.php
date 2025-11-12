@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 
 // Rutas públicas
 Route::post('/registrar-usuario', [UserController::class, 'register']);
+Route::post('/iniciar-sesion', [UserController::class, 'login']);
 
 Route::get('/user', function (Request $request) {
     return $request->user();
