@@ -11,4 +11,5 @@ Route::post('/iniciar-sesion', [UserController::class, 'login']);
 Route::middleware('auth:sanctum')->group(function () {
     Route::get('/listar-usuarios', [UserController::class, 'index']);
     Route::get('/usuario/{id}', [UserController::class, 'show']);
+    Route::put('/actualizar-usuario/{id}', [UserController::class, 'update']);
 
