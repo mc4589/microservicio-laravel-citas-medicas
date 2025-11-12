@@ -9,4 +9,5 @@ Route::post('/iniciar-sesion', [UserController::class, 'login']);
 
 // Rutas protegidas (requiere autorización con tokens)
 Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/listar-usuarios', [UserController::class, 'index']);
 
