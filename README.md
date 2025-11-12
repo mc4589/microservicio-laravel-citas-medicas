@@ -10,7 +10,7 @@
 
 ---
 
-## Descripción General
+### Descripción General
 Este microservicio forma parte del ecosistema del Sistema de Citas Médicas, encargado de gestionar los usuarios (pacientes, doctores y administradores) de forma centralizada. Su diseño se basa en principios RESTful, seguridad mediante tokens y compatibilidad con microservicios adicionales como gestión de citas, especialidades y notificaciones.
 
 ---
@@ -19,11 +19,11 @@ El desarrollo de este microservicio tuvo como propósito principal implementar u
 
 ---
 
-## 1.1 Alcance del Microservicio
-- ✔️ Registro, autenticación y administración de usuarios.
-- ✔️ Validación de credenciales y generación de tokens personales.
-- ❌ No gestiona citas, médicos ni horarios.
-- ❌ No almacena historiales clínicos detallados (solo datos básicos).
+### 1.1 Alcance del Microservicio
+- Registro, autenticación y administración de usuarios.
+- Validación de credenciales y generación de tokens personales.
+- No gestiona citas, médicos ni horarios.
+- No almacena historiales clínicos detallados (solo datos básicos).
 
 ---
 
